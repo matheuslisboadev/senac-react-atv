@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navItem {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .navItem:hover {
+    color: #0070f3;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .placeholderLogo {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .cardText {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .additionalText {
+    margin-top: 40px;
+  }
+
+  .centralImage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 20px;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footerText {
+    font-size: 16px;
+    color: #fff;
+  }
+  
